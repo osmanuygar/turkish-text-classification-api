@@ -1,7 +1,6 @@
 # Turkish Text Classification API
 
-This api used for Turkish Text Analytic and Classification. Usage of Turkish Text Classification Api is too easy and fast.
-The following can be done with this API.
+This api used for Turkish text analytic and classification. Usage of Turkish Text Classification Api is too easy and fast.
 
 
 
