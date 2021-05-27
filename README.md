@@ -1,7 +1,6 @@
 # Turkish Text Classification API
 
-This api used for Turkish text analytic and classification. Usage of Turkish Text Classification Api is too easy and fast.
-
+You can easily build custom turkish text classifiers through this API for more accurate insights, and start detecting topics, sentiment, intent, and more
 
 
 ## Installation
@@ -76,7 +75,6 @@ http://<span></span>localhost:5001/api/db/dataset/
 ```
 
 ### Model
-
 Create model with added datasets
 
 POST: http://<span></span>localhost:5001/api/classification/create_subjectivity_model/
@@ -88,7 +86,6 @@ POST: http://<span></span>localhost:5001/api/classification/create_subjectivity_
 ```
 
 ### Predict
-
 Predict any text data with created models.
 
 POST: http://<span></span>localhost:5001/api/classification/predict/
@@ -100,7 +97,6 @@ POST: http://<span></span>localhost:5001/api/classification/predict/
 ```
 
 ## Development Tools
-
 * [Python] - Programing language
 * [SQLite] - SQL database engine
 * [Scikit-learn] - Python ML library
