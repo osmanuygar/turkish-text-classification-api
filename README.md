@@ -96,6 +96,17 @@ POST: http://<span></span>localhost:5001/api/classification/predict/
 }
 ```
 
+### Density
+you can find the terms that are the most correlated with each of the feature of related dataset
+
+POST: http://<span></span>localhost:5001/api/density/get_density/
+```json
+{
+  "model_name": "string",
+  "quantity": 0
+}
+```
+
 ## Development Tools
 * [Python] - Programing language
 * [SQLite] - SQL database engine
