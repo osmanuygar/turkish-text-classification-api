@@ -5,14 +5,11 @@ You can easily build custom turkish text classifiers through this API for more a
 
 ## Installation
 
-To download and unzip the application the following commands.
+To download application the following commands.
 
 ```sh
-cd <related-path>
-mkdir turkish-text-classification-api
-cd <related-path>
----- download zip package to here -----
-unzip <file>
+git clone https://github.com/osmanuygar/turkish-text-classification-api.git
+cd turkish-text-classification-api
 ```
 
 Create a virtual Python environment in a directory named venv, activate the virtualenv and install required dependencies using pip.
@@ -33,7 +30,7 @@ python setup.py develop
 ```
 
 Activate the virtual enviroment
-Start the application with Gunicorn
+Start the application with Gunicorn (you can remove workers and threads in gunicorn, if you want)
 ```sh
 source <related-virtualenv-path>/venv/bin/activate
 cd <related-path>/turkish-text-classification-api/sentiment/
