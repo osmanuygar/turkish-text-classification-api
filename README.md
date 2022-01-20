@@ -103,6 +103,34 @@ POST: http://<span></span>localhost:5001/api/density/get_density/
   "quantity": 0
 }
 ```
+### NLP
+Turkish is a agglutinative language so suffixes are deterministic features for phrase types; subject type; singularity or plurality; time and model type. It is hard to analyzing turkish sentences according to other languages, we used lemmatizaion process on each words. You can list preprocessing steps of this api as below:
+
+Stop Words (nlp/understandable_text) --> correct noisy words (nlp/clean) -> lemmatize(nlp/lemma) 
+
+
+
+POST: http://<span></span>localhost:5001/api/nlp/understandable_text/
+```json
+{
+     "text": "yine yayin kesildi yine magdur edildik"
+}
+```
+
+POST: http://<span></span>localhost:5001/api/nlp/clean/
+```json
+{
+     "text": "yine yayin kesildi yine magdur edildik"
+}
+```
+
+POST: http://<span></span>localhost:5001/api/nlp/lemma/
+```json
+{
+     "text": "yine yayin kesildi yine magdur edildik"
+}
+```
+
 
 ## Development Tools
 * [Python] - Programing language
