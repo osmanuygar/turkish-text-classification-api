@@ -2,6 +2,7 @@
 
 You can easily build custom turkish text classifiers through this API for more accurate insights, and start detecting topics, sentiment, intent, and more
 
+Coded in 2019
 
 ## Installation
 
